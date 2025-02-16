@@ -1,0 +1,63 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color : rgb(31 120 50);
+  height: 70vh; /* Prend toute la hauteur de l'écran */
+  
+  margin: 0;
+}
+header{
+  display: grid;
+  place-items: center;
+  height: 40vh;
+  color : white;
+}
+#user-box {
+  display: grid;
+  place-items: center;
+  width : 350px;
+  height : 200px;
+  background-color : rgb(54, 69, 79)
+;
+
+ 
+  border : 1px solid white;
+}
+
+p{
+  display: grid;
+  place-items: center;
+  color : white;
+}
+
+#convert-btn,#number,#output{
+
+background-color : rgb(31 120 50);
+  border : 1px solid white;
+  padding: 5px;
+  color : white;
+  display : inline-block;/* Les rendre en ligne */
+  width : 150px;
+  height : 25px;
+}
+#convert-btn{
+  background-color : rgb(3 12 50);
+  
+}
+
+input{
+  color : white;
+}
+
+#output {
+  background-color : rgb(54, 69, 79)
+;
+font-size: 16px;
+width : auto;
+ display: none; /* Masque #output par défaut */
+padding : 15px;
+border : 1px solid white;
+margin-top: 10px; /* Un petit espace au-dessus */
+
+}
+
